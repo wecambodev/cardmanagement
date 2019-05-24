@@ -27,7 +27,7 @@ We find that Blockchain can be finicky when it comes to installing Nodes.
 
 ## references
 
-* Jwt Security [Demo](https://raw.githubusercontent.com/szerhusenBC/jwt-spring-security-demo/)
+* Jwt Security [Demo](https://github.com/szerhusenBC/jwt-spring-security-demo)
 
 
 
