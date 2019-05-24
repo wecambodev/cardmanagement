@@ -20,7 +20,7 @@ Audience level : Intermediate Developers
 
 We find that Blockchain can be finicky when it comes to installing Nodes. 
 
-* Docker - v1.13 or higher
+* Lombok - v1.13 or higher
 * Docker Compose - v1.8 or higher
 * Git client
 
