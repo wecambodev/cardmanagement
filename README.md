@@ -27,10 +27,7 @@ We find that Blockchain can be finicky when it comes to installing Nodes.
 
 ## references
 
-<<<<<<< HEAD
-=======
 * Jwt Security [Demo](https://raw.githubusercontent.com/szerhusenBC/jwt-spring-security-demo/)
->>>>>>> Delete Global Ex
 
 
 
