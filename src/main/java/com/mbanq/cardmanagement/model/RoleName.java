@@ -1,6 +1,0 @@
-package com.mbanq.cardmanagement.model;
-
-public enum  RoleName {
-    ROLE_USER,
-    ROLE_ADMIN
-}

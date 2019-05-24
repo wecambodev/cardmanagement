@@ -1,7 +1,5 @@
 package com.mbanq.cardmanagement;
 
-import com.mbanq.cardmanagement.model.User;
-import com.mbanq.cardmanagement.service.UserService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -9,16 +7,18 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
-
-import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Date;
 
 @SpringBootApplication
 public class CardManagementApplication implements CommandLineRunner {
 
+
+
 	@Autowired
-	UserService userService;
+	ConsumerRepository consumerRepository;
+
+
 	public static void main(String[] args) {
 		SpringApplication.run(CardManagementApplication.class, args);
 	}
@@ -46,20 +46,19 @@ public class CardManagementApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		/*User admin = new User();
-		admin.setUsername("admin");
-		admin.setPassword("admin");
-		admin.setEmail("admin@email.com");
-		admin.setRoles(new ArrayList<>(Arrays.asList(Role_old.ROLE_ADMIN)));
 
-		userService.signup(admin);
+		Consumer consumer = new Consumer();
+		consumer.setFirstname("first name");
+		consumer.setLastname("last name");
+		consumer.setEmail("email@gmail.com");
+		consumer.setPassword("password");
+		consumer.setUsername("username");
+		consumer.setEnabled(true);
+		consumer.setLastPasswordResetDate( new Date());
+		//consumer.setAuthorities();
+		consumerRepository.save(consumer);
 
-		User client = new User();
-		client.setUsername("client");
-		client.setPassword("client");
-		client.setEmail("client@email.com");
-		client.setRoles(new ArrayList<Role_old>(Arrays.asList(Role_old.ROLE_CLIENT)));
 
-		userService.signup(client);*/
 	}
+
 }

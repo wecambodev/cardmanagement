@@ -21,13 +21,13 @@ Audience level : Intermediate Developers
 We find that Blockchain can be finicky when it comes to installing Nodes. 
 
 * Lombok - v1.13 or higher
-* Docker Compose - v1.8 or higher
+* Jwt Compose - v1.8 or higher
 * Git client
 
 
 ## references
 
-* Jwt Security [Demo](https://github.com/szerhusenBC/jwt-spring-security-demo)
+* 1)Jwt Security [Demo](https://github.com/szerhusenBC/jwt-spring-security-demo)
 
 
 

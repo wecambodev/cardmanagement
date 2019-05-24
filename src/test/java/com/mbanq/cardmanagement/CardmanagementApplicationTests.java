@@ -13,9 +13,5 @@ public class CardmanagementApplicationTests {
 	public void contextLoads() {
 	}
 
-	@Test
-	public void jell(){
-
-	}
 
 }
