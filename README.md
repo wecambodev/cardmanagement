@@ -4,7 +4,7 @@ This project showcases the use of blockchain in Authentication Data Management S
 
 Audience level : Intermediate Developers
 
-## Included Components
+## Features
 
 * Hyperledger Fabric
 * Docker
@@ -16,7 +16,7 @@ Audience level : Intermediate Developers
 * Generate Channel Transaction configurations
 * Start the blockchain network
 
-## Prerequisites
+## Third Party Librarry
 
 We find that Blockchain can be finicky when it comes to installing Nodes. 
 
@@ -25,12 +25,15 @@ We find that Blockchain can be finicky when it comes to installing Nodes.
 * Git client
 
 
+## references
 
 
 
 
 
-# File structure
+
+
+## File structure
 
 ```
 cardmanangement/
